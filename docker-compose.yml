@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  api:
+    build: .
+    volumes:
+      - ./models:/models
+    ports:
+      - 70:70
